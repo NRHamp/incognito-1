@@ -80,7 +80,7 @@ export const StateContext = ({ children }) => {
   const decQty = () => {
     setQty((prevQty) => {
       if (prevQty < 2) return 1;
-      prevQty - 1;
+      return prevQty - 1;
     });
   };
 
