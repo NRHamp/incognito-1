@@ -783,6 +783,9 @@ span.text-red {
     padding: 0;
     margin: 0;
   }
+  .product-container {
+    padding-left: 20px;
+  }
   .cart-product-name > h5 {
     font-size: 14px !important;
   }
