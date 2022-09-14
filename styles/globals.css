@@ -789,6 +789,9 @@ span.text-red {
   .cart-bottom {
     margin-top: 15px !important;
   }
+  .cart-bottom .btn-container {
+    width: 250px;
+  }
   .cart-bottom .quantity-desc .minus,
   .cart-bottom .quantity-desc .plus,
   .cart-bottom .quantity-desc .num {
