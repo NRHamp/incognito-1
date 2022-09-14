@@ -373,10 +373,12 @@ span.text-red {
 }
 .remove-item {
   font-size: 24px;
-  color: #f02d34;
   cursor: pointer;
   background: transparent;
   border: none;
+}
+.remove-item:hover {
+  color: #f02d34;
 }
 .cart-bottom {
   position: absolute;
