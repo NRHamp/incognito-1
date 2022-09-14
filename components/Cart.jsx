@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import Link from "next/link";
 import {
   AiOutlineMinus,
   AiOutlinePlus,
@@ -10,7 +9,6 @@ import { FaTrashAlt } from "react-icons/fa";
 import toast, { Toast } from "react-hot-toast";
 import { useStateContext } from "../context/StateContext";
 import { urlFor } from "../lib/client";
-import Product from "./Product";
 import getStripe from "../lib/getStripe";
 
 const Cart = () => {

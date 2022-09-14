@@ -11,10 +11,10 @@ export default async function handler(req, res) {
         billing_address_collection: "auto",
         shipping_options: [
           {
-            shipping_rate: "shr_1LhkcXKA4Si1ZGRQ5JtmmBxG",
+            shipping_rate: "shr_1LhnaXKA4Si1ZGRQ64IU2e8F",
           },
           {
-            shipping_rate: "shr_1LhmYLKA4Si1ZGRQrQx59V0N",
+            shipping_rate: "shr_1Lhna1KA4Si1ZGRQNWVVD4r9",
           },
         ],
         line_items: req.body.map((item) => {
@@ -41,8 +41,8 @@ export default async function handler(req, res) {
             quantity: item.quantity,
           };
         }),
-        success_url: `${req.headers.origin}/?success=true`,
-        cancel_url: `${req.headers.origin}/?canceled=true`,
+        success_url: `${req.headers.origin}/success`,
+        cancel_url: `${req.headers.origin}/canceled`,
       };
       // Create Checkout Sessions from body params.
       const session = await stripe.checkout.sessions.create(params);
