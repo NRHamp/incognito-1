@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="footer-container">
-      <p>&copy;2022 Incognito All rights reserved</p>
+      <p>&copy;2022 Incognito Inc. All Rights Reserved</p>
       <p className="icons">
         <a
           target="_blank"

@@ -74,11 +74,11 @@ const Cart = () => {
                   className="cart-product-image"
                 />
                 <div className="item-desc">
-                  <div className="flex top">
+                  <div className="flex top cart-product-name">
                     <h5>{item.name}</h5>
-                    <h4>${item.price}</h4>
+                    <h5>${item.price}</h5>
                   </div>
-                  <div className="flex bottom">
+                  <div className="flex bottom cart-bottom">
                     <div>
                       <p className="quantity-desc">
                         <span
