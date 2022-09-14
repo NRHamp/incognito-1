@@ -630,18 +630,20 @@ span.text-red {
     height: 560px;
   }
   .hero-banner-image {
-    width: 85%;
-    top: -20%;
-    right: -15%;
+    width: 65%;
+    height: 50%;
+    top: 20%;
+    right: -3%;
   }
   .footer-banner-container {
     height: 560px;
     margin-top: 80px;
   }
   .footer-banner-image {
-    width: 85%;
-    left: 30%;
-    top: -5%;
+    width: 60%;
+    height: 50%;
+    left: 42%;
+    top: 10%;
   }
   .banner-desc .left h3 {
     font-weight: 900;
@@ -774,12 +776,15 @@ span.text-red {
     width: 100%;
   }
   .product .cart-product-image {
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
   }
   .cart-bottom .quantity-desc {
     padding: 0;
     margin: 0;
+  }
+  .cart-product-name > h5 {
+    font-size: 14px !important;
   }
   .cart-bottom {
     margin-top: 15px !important;
